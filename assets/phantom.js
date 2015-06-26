@@ -3,7 +3,7 @@ var page = require('webpage').create();
 var url = system.args[1];
 page.viewportSize = {
   width: 1024,
-  height: 768
+  height: 1024
 };
 page.onError = function (msg, trace) {
     console.log(msg);
